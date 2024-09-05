@@ -13,7 +13,9 @@ jobs:
     - uses: actions/checkout@v4
       with:
         submodules: recursive
-    - run: go generate
+    - run: |
+        go get github.com/twsouthwick/coredns/plugin/omada
+        go generate
     - run: make
     - run: |
         mkdir dist
