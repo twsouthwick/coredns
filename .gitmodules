@@ -1,0 +1,9 @@
+[submodule "plugin/blocker"]
+	path = plugin/blocker
+	url = https://github.com/icyflame/blocker
+[submodule "plugin/traefik"]
+	path = plugin/traefik
+	url = https://github.com/scottt732/coredns-traefik
+[submodule "plugin/omada"]
+	path = plugin/omada
+	url = https://github.com/dougbw/coredns_omada
