@@ -14,7 +14,6 @@ jobs:
       with:
         submodules: recursive
     - run: |
-        go get github.com/twsouthwick/coredns/plugin/omada
         go generate
     - run: make
     - run: |
